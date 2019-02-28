@@ -1,0 +1,5 @@
+month= input("Enter the name of the month:")
+if month=="janurary" or month=="march" or month=="april" or month=="may" or month=="june" or month=="july" or month=="august" or month=="september" or month=="october" or month=="december":
+    print(f"There are 30 days in {month}")
+elif month=="feburary":
+    print(f"There are 28 or 29 days in feburary")
