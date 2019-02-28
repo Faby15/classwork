@@ -1,0 +1,6 @@
+letter = input("type in a letter of the alphapet: ")
+vowel = list ('aeiou')
+if letter in vowel:
+    print(f"the letter {letter} is a vowel")
+else:
+    print(f"{letter} is a constant")
