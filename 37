@@ -1,0 +1,20 @@
+side = input("How many sides does your shape have?")
+side= int(side)
+if side ==3:
+    print("Your shape is a triangle")
+if side ==4:
+    print("Your shape is a square")
+if side ==5:
+    print("Your shape is a pentagon")
+if side ==6:
+    print("Your shape is a hexagon")
+if side ==7:
+    print("Your shape is a heptagon")
+if side ==8:
+    print("Your shape is a octagon")
+if side ==9:
+    print("Your shape is a nonagon")
+if side ==10:
+    print("Your shape is a dexagon")
+if side > 10:
+    print("Error not existent shape")
